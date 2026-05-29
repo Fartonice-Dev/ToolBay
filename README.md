@@ -114,7 +114,25 @@ TOOLBAY is being designed for:
 
 ## 📸 Screenshots
 
-Screenshots and project images are included in the repository to show TOOLBAY’s current build progress.
+### Dashboard
+
+![TOOLBAY Dashboard](dashboard.png)
+
+### Memory
+
+![TOOLBAY Memory](memory.png)
+
+### Pack Orchestrator
+
+![TOOLBAY Pack Orchestrator](pack-orchestrator.png)
+
+### Skills & Agents
+
+![TOOLBAY Skills and Agents](skills-agents.png)
+
+### Settings
+
+![TOOLBAY Settings](settings.png)
 
 ---
 
