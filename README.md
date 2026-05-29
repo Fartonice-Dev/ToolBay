@@ -27,6 +27,16 @@ It is still early, still rough, and still being built one careful piece at a tim
 
 ## Screenshots
 
+## Ideas and feedback
+
+I’m open to ideas, suggestions, and feature requests from people who are interested in where ToolBay is going.
+
+If you see something that could make this more useful for builders, AI workflows, local tools, memory systems, or project control, feel free to share it.
+
+I’ll take solid, reasonable ideas into consideration. Not every idea will make it into the project, and some may be saved for later if they do not fit the current build path yet.
+
+The goal is steady progress without turning the project into chaos.
+
 ### Dashboard
 
 ![Dashboard](dashboard.png)
