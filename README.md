@@ -65,24 +65,126 @@ TOOLBAY is being designed for:
 
 ## 🧭 Simple Overview
 
-```text
-┌──────────────────────────────┐
-│           TOOLBAY             │
-│   AI Work Engine Dashboard    │
-├──────────────────────────────┤
-│  📊 Dashboard                 │
-│  📦 Pack Orchestrator         │
-│  🧠 Memory                    │
-│  🔌 Claude Code Bridge        │
-│  ⚙️ Settings                  │
-└──────────────────────────────┘
-              │
-              ▼
-┌──────────┬──────────┬──────────┐
-│ Claude   │ ChatGPT  │ Local AI │
-│ Code     │ OpenAI   │ Ollama   │
-└──────────┴──────────┴──────────┘
-```
+🔥 TOOLBAY — AI WORK ENGINE STRUCTURE 🔥
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                     ┌──────────────────────────────┐
+                     │        USER / BUILDER         │
+                     │      Controls the work        │
+                     └───────────────┬──────────────┘
+                                     │
+                                     ▼
+┌────────────────────────────────────────────────────────────────────┐
+│                              TOOLBAY                               │
+│                    AI Work Engine Control Panel                    │
+├────────────────────────────────────────────────────────────────────┤
+│  📊 Dashboard                                                       │
+│  📦 Pack Orchestrator                                               │
+│  🔌 Claude Code Bridge                                              │
+│  🤖 ChatGPT / OpenAI Bridge                                         │
+│  🏠 Local Ollama Model Control                                      │
+│  🧠 Memory / Recall Panel                                           │
+│  🔑 API Key Manager                                                 │
+│  📡 Real-Time Activity Log                                          │
+│  ⚙️ Settings / Routing / Status                                     │
+└───────────────────────────────┬────────────────────────────────────┘
+                                │
+                                ▼
+                  ┌────────────────────────────┐
+                  │      TOOLBAY ROUTER         │
+                  │  Sends the right job to     │
+                  │  the right AI/tool engine   │
+                  └─────────────┬──────────────┘
+                                │
+        ┌───────────────────────┼───────────────────────┐
+        │                       │                       │
+        ▼                       ▼                       ▼
+┌─────────────────┐   ┌─────────────────┐   ┌─────────────────┐
+│   CLAUDE CODE   │   │  CHATGPT /      │   │   LOCAL AI      │
+│                 │   │  OPENAI         │   │   OLLAMA        │
+├─────────────────┤   ├─────────────────┤   ├─────────────────┤
+│ Coding engine   │   │ Cloud AI brain  │   │ Offline/local   │
+│ Project edits   │   │ Planning        │   │ Cheaper tasks   │
+│ Terminal work   │   │ Writing         │   │ Quick answers   │
+│ MCP tools live  │   │ Reasoning       │   │ Fallback brain  │
+└────────┬────────┘   └────────┬────────┘   └────────┬────────┘
+         │                     │                     │
+         └──────────────┬──────┴──────────────┬──────┘
+                        │                     │
+                        ▼                     ▼
+        ┌──────────────────────────┐   ┌──────────────────────────┐
+        │      SHARED MEMORY        │   │      PROJECT CONTEXT      │
+        ├──────────────────────────┤   ├──────────────────────────┤
+        │ Short-term memory         │   │ Current project files      │
+        │ Long-term memory          │   │ Logs / events              │
+        │ Search / recall           │   │ GitHub repo info           │
+        │ Learning notes            │   │ Activity history           │
+        └─────────────┬────────────┘   └─────────────┬────────────┘
+                      │                              │
+                      └──────────────┬───────────────┘
+                                     │
+                                     ▼
+┌────────────────────────────────────────────────────────────────────┐
+│                    LIVE MCP / TOOL CONNECTION LAYER                 │
+│              Currently visible through Claude Code / MCP            │
+├────────────────────────────────────────────────────────────────────┤
+│  ✅ GitNexus                         — 13 tools                     │
+│  ✅ Memory Service                   — 7 tools                      │
+│  ✅ ECC Context7                     — 2 tools                      │
+│  ✅ ECC Exa                          — 2 tools                      │
+│  ✅ ECC GitHub                       — 26 tools                     │
+│  ✅ ECC Memory                       — 9 tools                      │
+│  ✅ ECC Playwright                   — 21 tools                     │
+│  ✅ ECC Sequential Thinking          — 1 tool                       │
+│  ✅ Oh My Claude Code                — 49 tools                     │
+├────────────────────────────────────────────────────────────────────┤
+│  TOTAL LIVE SNAPSHOT:                                               │
+│  • 13 MCP server entries detected                                   │
+│  • 9 active connected MCP servers                                   │
+│  • 130 active MCP tools available                                   │
+│  • 4 services waiting on authentication                             │
+└────────────────────────────────────────────────────────────────────┘
+                         │
+                         ▼
+┌────────────────────────────────────────────────────────────────────┐
+│                  WAITING ON AUTHENTICATION                         │
+├────────────────────────────────────────────────────────────────────┤
+│  ⚠️ Gmail                                                          │
+│  ⚠️ Google Drive                                                   │
+│  ⚠️ Linear                                                         │
+│  ⚠️ Notion                                                         │
+└────────────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━
+✅ SIMPLE VERSION OF WHAT THIS MEANS
+━━━━━━━━━━━━━━━━━━━━━━
+
+TOOLBAY should not be drawn like everything is separate and isolated.
+
+The better idea is:
+
+Claude Code ┐
+ChatGPT     ├──► TOOLBAY ROUTER ──► Memory / Tools / Files / Logs
+Ollama      ┘
+
+Or even cleaner:
+
+                 ┌──────────────┐
+                 │   TOOLBAY    │
+                 │ Control Hub  │
+                 └──────┬───────┘
+                        │
+        ┌───────────────┼───────────────┐
+        ▼               ▼               ▼
+   Claude Code      ChatGPT/OpenAI    Ollama
+        │               │               │
+        └───────────────┼───────────────┘
+                        ▼
+            Shared Memory + MCP Tools
+
+━━━━━━━━━━━━━━━━━━━━━━
+🧠 TRUTH CHECK
+━━━━━━━━━━━━━━━━━━━━━━
 
 ---
 
