@@ -4,8 +4,9 @@
 
 ![Status](https://img.shields.io/badge/status-active%20development-orange?style=for-the-badge)
 ![Ollama](https://img.shields.io/badge/Ollama-supported-success?style=for-the-badge)
-![Claude](https://img.shields.io/badge/Claude%20Code-bridged-D97757?style=for-the-badge)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-bridged-D97757?style=for-the-badge)
 ![Built Solo](https://img.shields.io/badge/built-solo%20in%20public-blue?style=for-the-badge)
+![Human + AI](https://img.shields.io/badge/Made%20by-Human%20%2B%20AI-purple?style=for-the-badge)
 
 *One dashboard. Multiple AI brains. Total control.* 🧠⚡
 
@@ -13,231 +14,124 @@
 
 ## ⚡ What is TOOLBAY?
 
-TOOLBAY is **not another AI**. It's the **dashboard that controls your AIs.**
+TOOLBAY is **not another AI**.
 
-Plug in Claude, ChatGPT, or local models like Ollama — switch between them with one click, watch them work in real time, and never burn cloud tokens for casual chat again.
+TOOLBAY is the **control dashboard for AI work engines** — a single interface for managing Claude Code, ChatGPT/OpenAI, local AI through Ollama, memory tools, plugins, and real-time project activity.
 
-> 💡 *Like the dashboard of a car — TOOLBAY isn't the engine, it's the gauges, controls, and steering wheel for whatever AI engine you choose to run.*
+Think of it like the dashboard of a custom-built machine:
 
----
-
-## ✨ Features
-
-- 🟠🟢🦙 **Multi-provider routing** — Claude · ChatGPT · Local AI
-- 🟢 **Real-time health checks** on every connection
-- 🧠💾 **Persistent memory** across sessions
-- 🛡️ **Built-in safety gates** for risky actions
-- 💸❌ **Free local AI chat** via Ollama — zero cloud tokens
-- 🔌 **Live event bridge** — see what Claude Code is doing as it happens
-- 🎛️ **One unified interface** for every AI in your stack
-- 🧩 **Modular plugin system**
+* The AI models are the engines.
+* TOOLBAY is the control panel.
+* The plugins are the tools.
+* The memory system is the work log.
+* The event bridge shows what is happening live.
 
 ---
 
-## 🎯 Why it exists
+## ✨ Current Features
 
-Built for solo creators, indie devs, and tinkerers who refuse to be locked into one AI provider — and who want a beautiful interface for the AIs they're already paying for.
-
----
-
-## 🛠️ Status
-
-🚧 **Active development** — building solo, in public.
-
-**Shipped so far:**
-- ✅ Memory service integration
-- ✅ Multi-provider control strip
-- ✅ Real API key manager with live verification
-- ✅ Free local AI chat (Ollama) — zero token cost
-- ✅ Real-time Claude Code event bridge
-- ✅ Model picker with status indicators
-
-**Coming next:**
-- 🔲 Setup wizard for first-time users
-- 🔲 Standalone installer (.exe)
-- 🔲 Bidirectional approval prompts
+* 🟠 **Claude Code bridge** — shows Claude Code events in real time
+* 🟢 **OpenAI / ChatGPT support planned**
+* 🦙 **Ollama local AI support** — local model use with zero cloud token cost
+* 🧠 **Memory service integration**
+* 🔑 **API key manager with live verification**
+* 🎛️ **Multi-provider control strip**
+* 📊 **Dashboard view for system status**
+* 🧩 **Plugin-ready layout**
+* 🛡️ **Safety and approval gate planning**
+* 🧪 **Active testing while building in public**
 
 ---
 
-## 🚀 Coming soon
+## 🧠 Why TOOLBAY Exists
 
-A simple installer is in the works — one click to set up TOOLBAY plus its required components (Node.js, Ollama, etc).
+Most AI tools work like separate boxes.
 
-📬 **Want early access?** Watch this repo for updates.
+TOOLBAY is being built to bring those boxes together into one workbench.
 
----
+The goal is to let a builder control multiple AI systems from one place instead of jumping between windows, terminals, browser tabs, and disconnected tools.
 
-🛠️ Built solo · in public · by a builder
+TOOLBAY is being designed for:
 
-**#AI #LocalAI #DevTools #IndieBuilder #BuildInPublic**
-
-© 2026 · TOOLBAY is a personal project in active development · All rights reserved
-No <div> tags this time. Should scroll fine.You said: here it's what I have in there all of it copy and paste it in one copy paste please fix this give it back as one whole copy paste do not break it up into separ…here it's what I have in there all of it copy and paste it in one copy paste please fix this give it back as one whole copy paste do not break it up into separate copy paste <div align="center">
-# 🛠️ TOOLBAY
-### *The control panel for AI work engines*
-[![Status](https://img.shields.io/badge/status-active%20development-orange?style=for-the-badge)](https://github.com/Fartonice-Dev/ToolBay)
-[![Local AI](https://img.shields.io/badge/Ollama-supported-success?style=for-the-badge&logo=ollama&logoColor=white)](https://ollama.com)
-[![Claude](https://img.shields.io/badge/Claude%20Code-bridged-D97757?style=for-the-badge&logoColor=white)](https://www.anthropic.com)
-[![Built Solo](https://img.shields.io/badge/built-solo%2C%20in%20public-blue?style=for-the-badge)](https://github.com/Fartonice-Dev/ToolBay)
-[![Made by Human](https://img.shields.io/badge/Made%20by-Human%20%2B%20AI-purple?style=for-the-badge)](https://github.com/Fartonice-Dev/ToolBay)
----
-### *One dashboard. Multiple AI brains. Total control.* 🧠⚡
-</div>
-## ⚡ What is TOOLBAY?
-TOOLBAY is **not another AI**. It's the **dashboard that controls your AIs.**
-Plug in Claude, ChatGPT, or local models like Ollama — switch between them with one click, watch them work in real time, and never burn cloud tokens for casual chat again.
-> 💡 *Like the dashboard of a car — TOOLBAY isn't the engine, it's the gauges, controls, and steering wheel for whatever AI engine you choose to run.*
----
-## ✨ Features
-| | |
-|---|---|
-| 🟠🟢🦙 | **Multi-provider routing** — Claude · ChatGPT · Local AI |
-| 🟢 | **Real-time health checks** on every connection |
-| 🧠💾 | **Persistent memory** across sessions |
-| 🛡️ | **Built-in safety gates** for risky actions |
-| 💸❌ | **Free local AI chat** via Ollama — zero cloud tokens |
-| 🔌 | **Live event bridge** — see what Claude Code is doing as it happens |
-| 🎛️ | **One unified interface** for every AI in your stack |
-| 🧩 | **Modular plugin system** |
----
-## 🎯 Why it exists
-> *Built for solo creators, indie devs, and tinkerers who refuse to be locked into one AI provider — and who want a beautiful interface for the AIs they're already paying for.*
-┌──────────────────────────┐
-│   🟠  🟢  🦙   TOOLBAY    │
-│   Claude · GPT · Local   │
-├──────────────────────────┤
-│  📊 Dashboard            │
-│  📦 Pack Orchestrator    │
-│  🧠 Memory               │
-│  ⚙️  Settings            │
-└──────────────────────────┘
-⬇️ Multi-AI Routing ⬇️
-┌─────┐  ┌─────┐  ┌─────┐
-│ 🟠 │  │ 🟢 │  │ 🦙 │
-└─────┘  └─────┘  └─────┘
----
-## 🛠️ Status
-🚧 **Active development** — building solo, in public.
-**Shipped so far:**
-- ✅ Memory service integration
-- ✅ Multi-provider control strip
-- ✅ Real API key manager with live verification
-- ✅ Free local AI chat (Ollama) — zero token cost
-- ✅ Real-time Claude Code event bridge
-- ✅ Model picker with status indicators
-**Coming next:**
-- 🔲 Setup wizard for first-time users
-- 🔲 Standalone installer (.exe)
-- 🔲 Bidirectional approval prompts
-- 🔲 More integrations
----
-## 📸 Screenshots
-*See the screenshots above and below this README for the current build in action.*
----
-## 🚀 Coming soon
-A simple installer is in the works — one click to set up TOOLBAY plus its required components (Node.js, Ollama, etc).
-📬 **Want early access?** Watch this repo for updates.
----
-<div align="center">
-### 🛠️ Built solo · in public · by a builder
-**#AI #LocalAI #DevTools #IndieBuilder #BuildInPublic**
----
-© 2026 · TOOLBAY is a personal project in active development · All rights reserved
-</div>Show more3:54 PMClaude responded: ┌──────────────────────────┐markdown# 🛠️ TOOLBAY
-
-**The control panel for AI work engines**
-
-![Status](https://img.shields.io/badge/status-active%20development-orange?style=for-the-badge)
-![Ollama](https://img.shields.io/badge/Ollama-supported-success?style=for-the-badge)
-![Claude](https://img.shields.io/badge/Claude%20Code-bridged-D97757?style=for-the-badge)
-![Built Solo](https://img.shields.io/badge/built-solo%20in%20public-blue?style=for-the-badge)
-![Made by Human](https://img.shields.io/badge/Made%20by-Human%20%2B%20AI-purple?style=for-the-badge)
-
-*One dashboard. Multiple AI brains. Total control.* 🧠⚡
+* solo developers
+* AI builders
+* tinkerers
+* local AI users
+* Claude Code users
+* people building custom AI workflows
+* people who want more control over token usage
 
 ---
 
-## ⚡ What is TOOLBAY?
+## 🧭 Simple Overview
 
-TOOLBAY is **not another AI**. It's the **dashboard that controls your AIs.**
-
-Plug in Claude, ChatGPT, or local models like Ollama — switch between them with one click, watch them work in real time, and never burn cloud tokens for casual chat again.
-
-> 💡 *Like the dashboard of a car — TOOLBAY isn't the engine, it's the gauges, controls, and steering wheel for whatever AI engine you choose to run.*
-
----
-
-## ✨ Features
-
-- 🟠🟢🦙 **Multi-provider routing** — Claude · ChatGPT · Local AI
-- 🟢 **Real-time health checks** on every connection
-- 🧠💾 **Persistent memory** across sessions
-- 🛡️ **Built-in safety gates** for risky actions
-- 💸❌ **Free local AI chat** via Ollama — zero cloud tokens
-- 🔌 **Live event bridge** — see what Claude Code is doing as it happens
-- 🎛️ **One unified interface** for every AI in your stack
-- 🧩 **Modular plugin system**
-
----
-
-## 🎯 Why it exists
-
-Built for solo creators, indie devs, and tinkerers who refuse to be locked into one AI provider — and who want a beautiful interface for the AIs they're already paying for.
-
-```
-┌──────────────────────────┐
-│   🟠  🟢  🦙   TOOLBAY    │
-│   Claude · GPT · Local   │
-├──────────────────────────┤
-│  📊 Dashboard            │
-│  📦 Pack Orchestrator    │
-│  🧠 Memory               │
-│  ⚙️  Settings            │
-└──────────────────────────┘
-     ⬇️ Multi-AI Routing ⬇️
-┌─────┐  ┌─────┐  ┌─────┐
-│ 🟠 │  │ 🟢 │  │ 🦙 │
-└─────┘  └─────┘  └─────┘
+```text
+┌──────────────────────────────┐
+│           TOOLBAY             │
+│   AI Work Engine Dashboard    │
+├──────────────────────────────┤
+│  📊 Dashboard                 │
+│  📦 Pack Orchestrator         │
+│  🧠 Memory                    │
+│  🔌 Claude Code Bridge        │
+│  ⚙️ Settings                  │
+└──────────────────────────────┘
+              │
+              ▼
+┌──────────┬──────────┬──────────┐
+│ Claude   │ ChatGPT  │ Local AI │
+│ Code     │ OpenAI   │ Ollama   │
+└──────────┴──────────┴──────────┘
 ```
 
 ---
 
-## 🛠️ Status
+## 🛠️ Project Status
 
-🚧 **Active development** — building solo, in public.
+🚧 **Active development** — built solo, in public.
 
-**Shipped so far:**
-- ✅ Memory service integration
-- ✅ Multi-provider control strip
-- ✅ Real API key manager with live verification
-- ✅ Free local AI chat (Ollama) — zero token cost
-- ✅ Real-time Claude Code event bridge
-- ✅ Model picker with status indicators
+### Shipped so far
 
-**Coming next:**
-- 🔲 Setup wizard for first-time users
-- 🔲 Standalone installer (.exe)
-- 🔲 Bidirectional approval prompts
-- 🔲 More integrations
+* ✅ Memory service integration
+* ✅ Multi-provider control strip
+* ✅ API key manager
+* ✅ Live API verification
+* ✅ Ollama/local AI support path
+* ✅ Real-time Claude Code event bridge
+* ✅ Model picker with status indicators
+* ✅ Dashboard foundation
+
+### Coming next
+
+* 🔲 Setup wizard for first-time users
+* 🔲 Standalone installer
+* 🔲 Better command channel for Claude Code
+* 🔲 Bidirectional approval prompts
+* 🔲 More plugin integrations
+* 🔲 Cleaner public showcase screenshots
 
 ---
 
 ## 📸 Screenshots
 
-*See the screenshots above and below this README for the current build in action.*
+Screenshots and project images are included in the repository to show TOOLBAY’s current build progress.
 
 ---
 
-## 🚀 Coming soon
+## 🚀 Coming Soon
 
-A simple installer is in the works — one click to set up TOOLBAY plus its required components (Node.js, Ollama, etc).
+A simple installer is planned so TOOLBAY can be easier to set up without manually wiring every tool.
 
-📬 **Want early access?** Watch this repo for updates.
+The long-term goal is a full AI workbench where local AI, cloud AI, memory, plugins, testing, and project automation can all work together from one clean control panel.
 
 ---
 
-🛠️ Built solo · in public · by a builder
+## 🧱 Built By
 
-**#AI #LocalAI #DevTools #IndieBuilder #BuildInPublic**
+Built solo, in public, by a hands-on builder learning and shipping one piece at a time.
+
+**#AI #LocalAI #DevTools #ClaudeCode #Ollama #BuildInPublic #IndieBuilder**
+
+---
 
 © 2026 · TOOLBAY is a personal project in active development · All rights reserved
