@@ -25,6 +25,28 @@ Instead of one chatbot trying to do everything, ToolBay is becoming the workbenc
 
 It is still early, still rough, and still being built one careful piece at a time — but it is already starting to feel like the foundation for something much bigger.
 
+## Latest update
+
+ToolBay now has a verified bridge showing Claude Code activity inside the dashboard in real time.
+
+That means the project is moving beyond a static control panel and starting to become an actual work-engine monitor: tracking AI tools, build events, local services, memory systems, and agent activity from one place.
+
+Current verified progress:
+
+✅ Claude Code activity events are showing in ToolBay
+✅ Activity Log is receiving real build/work events
+✅ Local dashboard is tracking connected services
+✅ Provider status is visible for Claude, ChatGPT, and local Ollama
+✅ Memory, skills, agents, hooks, and plugins are being organized into one interface
+
+Next planned direction:
+
+➡️ ToolBay to Claude Code command channel
+➡️ Safer command routing
+➡️ Better work-console controls
+➡️ More useful project memory and task tracking
+
+
 ## Screenshots
 
 ## Ideas and feedback
