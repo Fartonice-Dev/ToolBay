@@ -136,6 +136,24 @@ TOOLBAY is being designed for:
 
 ---
 
+## 🆕 Latest Update Screenshots
+
+These screenshots show the newest TOOLBAY work-engine updates: local model selection, live activity logging, connection status checks, API/plugin verification, and the expanded Skills & Agents system.
+
+### Dashboard — Local Model Picker + Live Activity Log
+
+![TOOLBAY Dashboard Model Picker](update-dashboard-model-picker.png)
+
+### Settings — Connection Manager + API/Mic Status
+
+![TOOLBAY Settings Connections](update-settings-connections.png)
+
+### Skills & Agents — Live Skills, Hooks, Agents, and Plugins
+
+![TOOLBAY Skills Agents Plugins](update-skills-agents-plugins.png)
+
+---
+
 ## 🚀 Coming Soon
 
 A simple installer is planned so TOOLBAY can be easier to set up without manually wiring every tool.
